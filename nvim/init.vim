@@ -32,6 +32,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'preservim/nerdtree'
 " fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -249,6 +250,9 @@ map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
 map <leader>t<leader> :tabnext 
+
+" Nerdtree
+map <C-n> :NERDTreeToggle<CR>
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
