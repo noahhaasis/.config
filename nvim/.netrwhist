@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/noah/Projects/juspay/euler-api-gateway/nix'
+let g:netrw_dirhist_0='/home/noah/Projects/juspay/euler-types/src/Euler/Types/Customer'
+let g:netrw_dirhist_9='/home/noah/Projects/juspay/euler-api-gateway/nix'
+let g:netrw_dirhist_8='/home/noah/.nix-profile'
+let g:netrw_dirhist_7='/home/noah/Projects/juspay/euler-types/result'
+let g:netrw_dirhist_6='/home/noah/Projects/juspay/euler-hs/nix/euler-build'
+let g:netrw_dirhist_5='/home/noah/Projects/juspay/euler-types/result'
+let g:netrw_dirhist_4='/home/noah/.zsh'
+let g:netrw_dirhist_3='/home/noah/Projects/juspay/euler-api-gateway/nix'
+let g:netrw_dirhist_2='/home/noah/Projects/juspay/euler-types/src/Euler/Types/Card'
