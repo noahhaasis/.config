@@ -33,7 +33,6 @@
 " Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'preservim/nerdtree'
-" fzf
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
@@ -42,6 +41,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'purescript-contrib/purescript-vim'
 " Git wrapper
 Plug 'tpope/vim-fugitive'
 call plug#end()
@@ -248,8 +248,8 @@ map <leader>h :bprevious<cr>
 map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
-map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+map <leader>tm :tabmove<cr>
+map <leader>t<leader> :tabnext<cr>
 
 " Nerdtree
 map <C-n> :NERDTreeToggle<CR>
